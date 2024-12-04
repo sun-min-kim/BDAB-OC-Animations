@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/sunminkim/Desktop/Manim/media/videos/scene/480p15/partial_movie_files/LinearRegression/1185818338_3248250881_223132457.mp4'
+file 'file:/Users/sunminkim/Desktop/Manim/media/videos/scene/480p15/partial_movie_files/LinearRegression/624642324_3917908658_2587274448.mp4'
+file 'file:/Users/sunminkim/Desktop/Manim/media/videos/scene/480p15/partial_movie_files/LinearRegression/624642324_1102668931_3055814253.mp4'
+file 'file:/Users/sunminkim/Desktop/Manim/media/videos/scene/480p15/partial_movie_files/LinearRegression/624642324_1186799867_1379103749.mp4'
+file 'file:/Users/sunminkim/Desktop/Manim/media/videos/scene/480p15/partial_movie_files/LinearRegression/624642324_784179552_1146669460.mp4'

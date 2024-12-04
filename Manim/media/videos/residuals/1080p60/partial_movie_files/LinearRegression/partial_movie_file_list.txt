@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/sunminkim/Desktop/projects/Manim/media/videos/residuals/1080p60/partial_movie_files/LinearRegression/3977891868_3730297034_223132457.mp4'
+file 'file:/Users/sunminkim/Desktop/projects/Manim/media/videos/residuals/1080p60/partial_movie_files/LinearRegression/2852726489_4221001261_180752608.mp4'
+file 'file:/Users/sunminkim/Desktop/projects/Manim/media/videos/residuals/1080p60/partial_movie_files/LinearRegression/2852726489_1795720803_2836608101.mp4'
+file 'file:/Users/sunminkim/Desktop/projects/Manim/media/videos/residuals/1080p60/partial_movie_files/LinearRegression/2852726489_1752831919_3753982944.mp4'
+file 'file:/Users/sunminkim/Desktop/projects/Manim/media/videos/residuals/1080p60/partial_movie_files/LinearRegression/2852726489_1659294292_1437912019.mp4'
+file 'file:/Users/sunminkim/Desktop/projects/Manim/media/videos/residuals/1080p60/partial_movie_files/LinearRegression/2852726489_1452490726_1316412047.mp4'
+file 'file:/Users/sunminkim/Desktop/projects/Manim/media/videos/residuals/1080p60/partial_movie_files/LinearRegression/2852726489_784179552_367569643.mp4'
