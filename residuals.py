@@ -17,11 +17,11 @@ class LinearRegressionWithLabels(Scene):
 
         # Initial line (bad guess)
         initial_line = axes.plot(lambda x: 2 * x - 2, x_range=[0, 8], color=RED)
-        initial_line_label = Text("y = 2x - 2", color=RED).next_to(initial_line, UP)
+        initial_line_label = Text("y = 2x - 2", color=RED, font_size=30).next_to(initial_line, RIGHT)
 
         # Target regression line
         regression_line = axes.plot(lambda x: 0.8 * x + 1, x_range=[0, 8], color=GREEN)
-        regression_line_label = Text("y = 0.8x + 1", color=GREEN).next_to(regression_line, UP)
+        regression_line_label = Text("y = 0.8x + 1", color=GREEN, font_size=30).next_to(regression_line, UP)
 
         # Residual lines for the initial line
         initial_residuals = VGroup(
@@ -50,10 +50,11 @@ class LinearRegressionWithLabels(Scene):
         )
 
         # Title for the scene
-        title = Text("Linear Regression Animation").to_edge(UP)
+        title = Text("Linear Regression Residuals Minimization", font_size=45).to_edge(UP)
 
         # Labels for the residuals
-        residual_label = Text("Residuals", color=RED).next_to(initial_residuals, RIGHT)
+        residual_label = Text("Residuals", color=WHITE, font_size=30).next_to(initial_residuals, RIGHT)
+        #residual_explanation = Text("Residuals are minimized to find the linear regression line", color=WHITE).next_to(residual_label, DOWN)
 
         # Animation sequence
         self.play(Write(title))
@@ -63,6 +64,8 @@ class LinearRegressionWithLabels(Scene):
         self.play(Write(initial_line_label))
         self.play(Create(initial_residuals))
         self.play(Write(residual_label))
+        #self.play(Write(residual_explanation, font_size=5))
+        #self.wait(10)
 
         # Transition to regression line
         self.play(
